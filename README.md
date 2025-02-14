@@ -5,6 +5,14 @@ This is a backend web application built with **Express.js** and **MongoDB** that
 2. Log in using their email and password to receive a JWT token.
 3. Search for users by username or email.
 
+## Deployment
+
+The application is deployed on an **AWS EC2 instance** and is accessible at:
+
+🔗 **[EC2 Server URL](http://52.71.151.89:5000/)**
+http://52.71.151.89:5000/
+
+
 ## Tech Stack
 - **Node.js**
 - **Express.js**
@@ -105,13 +113,6 @@ npm run dev
 ## Testing with Postman
 1. Use **Postman** to test API endpoints.
 2. For protected routes, pass the JWT token in the `Authorization` header as `Bearer <token>`.
-
-
-## Deployment
-You can deploy this API on **Render, Railway, or Vercel**:
-- **Render:** [Render Deployment Guide](https://render.com/docs/deploy-node-express-app)
-- **Railway:** [Railway Deployment Guide](https://railway.app/)
-- **Vercel:** [Vercel Deployment Guide](https://vercel.com/docs/cli)
 
 
 ## Author
